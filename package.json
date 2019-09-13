@@ -1,0 +1,41 @@
+{
+  "name": "react-pokerclub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "start": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keolazy/staxed-poker.git"
+  },
+  "author": "Andrew Schau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keolazy/staxed-poker/issues"
+  },
+  "homepage": "https://github.com/keolazy/staxed-poker#readme",
+  "dependencies": {
+    "auth0-js": "^9.7.3",
+    "axios": "^0.18.0",
+    "bcrypt-as-promised": "^1.1.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.10",
+    "pg": "^7.4.3",
+    "react-pose": "^3.3.6",
+    "react-pure-lifecycle": "^3.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1",
+    "nodemon": "^1.18.4"
+  }
+}
