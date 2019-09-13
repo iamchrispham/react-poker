@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keolazy/staxed-poker.git"
+    "url": "git+https://github.com/iamchrispham/react-poker"
   },
-  "author": "Andrew Schau",
+  "author": "Chris Pham",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/keolazy/staxed-poker/issues"
+    "url": "https://github.com/iamchrispham/react-poker"
   },
-  "homepage": "https://github.com/keolazy/staxed-poker#readme",
+  "homepage": "https://github.com/iamchrispham/react-poker",
   "dependencies": {
     "auth0-js": "^9.7.3",
     "axios": "^0.18.0",
