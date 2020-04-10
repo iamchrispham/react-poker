@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/iamchrispham/react-poker",
   "dependencies": {
-    "auth0-js": "^9.7.3",
+    "auth0-js": "^9.13.2",
     "axios": "^0.18.0",
     "bcrypt-as-promised": "^1.1.0",
     "body-parser": "^1.18.3",
