@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.5.3",
+    "ajv": "^6.12.3",
     "auth0-js": "^9.7.3",
     "axios": "^0.18.0",
     "body-parser": "^1.18.3",
